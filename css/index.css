@@ -1,0 +1,210 @@
+html,body {
+  background-color: #f7f7f7;
+}
+.lt{
+	width: 100%;
+	margin: 0 auto;
+}
+/*头部固定栏*/
+.lt-start{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: blue;
+	z-index: 10;
+	box-sizing: border-box;
+
+}
+.lt-start p{
+	width: 100%;
+	height: 100%;
+	color:#fff;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	padding-right:28px;
+}
+.lt-start i{
+	position: absolute;
+	top: 10px;
+	right: 0;
+	height: 100%;
+	width: 25px;
+  	background-position: -56px -109px;
+  
+ 	background-image: url("../images/jd-sprites.png");
+  	background-size: 200px 200px;
+}
+
+
+/*中间部分*/
+.lt-center{
+	margin-top: 40px;
+}
+/*轮播图*/
+.carousel{
+	width: 100%;
+
+}
+.carousel img{
+  width: 100%;
+  /*vertical-align: middle;*/
+}
+/*鞋类导航*/
+.sort{
+	width: 100%;
+	height: 230px;
+	box-sizing: border-box;
+
+}
+.sort ul {
+	width: 100%;
+	display: flex;
+	align-content:center;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+.sort ul li{
+	width: 32%;
+	float: left;
+}
+.sort ul li img{
+	display: block;
+	width: 100%;
+}
+/*爆款类*/
+.hotcake{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	/*margin: 15px 10px 0 10px;*/
+	margin-bottom: 20px;
+
+	
+}
+.hotcake .l-hotcake {
+	flex: 2;
+	display: flex;
+	flex-wrap :wrap;
+}
+.hotcake .l-hotcake a{
+	/*float: left;*/
+	width: 50%;
+}
+
+.hotcake .r-hotcake{
+	flex: 1;
+}
+/*.hotcake .r-hotcake img{
+	width: 100%;*/
+}
+/*品牌专区*/
+
+.brand{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.brand .pei{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.brand .pei img{
+	display: block;
+	width: 100%;
+	/*height: 40px;*/
+}
+.brand ul{
+	width: 100%;
+}
+.brand ul li {
+	width: 100%;
+	/*padding: 0 5px;*/
+	/*float: left;*/
+}
+.brand ul li img{
+	float: left;
+	width: 25%;
+}
+.repost{
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+.repost .repost-top{
+	width: 100%;
+}
+.repost .repost-bottm{
+	width: 100%;
+}
+.repost .repost-bottm li{
+	background-color: #fff;
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+.repost .repost-bottm li p{
+	font-size: 14px;
+	text-overflow:ellipsis;
+	margin: 0 15px;
+	overflow: hidden;
+	display: -webkit-box;
+			-webkit-box-orient:vertical;
+			-webkit-line-clamp:2;
+}
+.repost .repost-bottm li p span{
+	color: red;
+	padding: 10,10px;
+}
+.repost .repost-bottm li p del{
+	width: 40px;
+	font-size: 12px;
+	color: #ccc;
+}
+.repost .repost-bottm img{
+	width: 60%;
+	margin: 0 auto;
+}
+.repost .repost-bottm input{
+	background-color:green;
+	border-radius: 3px;
+	color: #ccc;
+	width: 40%;
+	height: 28px;
+	margin-left: 55px;
+	margin-top: 10px;
+
+}
+/*尾部固定栏*/
+.lt-over{
+ 	width: 100%;
+ 	height: 40px;
+ 	position: fixed; 
+ 	left: 0;
+ 	bottom: 0;
+ 	background-color: blue;
+}
+.lt-over .over-goot{
+	width: 100%;
+}
+.over-goot ul{
+	width: 100%;
+	
+}
+.over-goot ul li{
+	width: 25%;
+	height: 40px;
+	text-align: center;
+	float: left;
+	background-color: pink;
+	
+}
+.over-goot ul li img{
+	width: 25%;
+	
+}
